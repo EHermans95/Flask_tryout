@@ -2,7 +2,7 @@ from flask import Flask
 
 @app.route ('/')
 def home () :
-    return "<p>Hello world!</p>"
+    return "<p>Website met vallen en opstaan.</p>"
 
 
 app=Flask(__name__)
